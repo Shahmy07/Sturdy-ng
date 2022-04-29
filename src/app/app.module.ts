@@ -17,7 +17,10 @@ import {MatIconModule} from '@angular/material/icon';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
-  {path:'about', component:AboutComponent}
+  {path:'about', component:AboutComponent},
+  {path:'service', component:ServiceComponent},
+  {path:'news', component:NewsComponent},
+  {path:'contact', component:ContactComponent}
 ];
 
 @NgModule({

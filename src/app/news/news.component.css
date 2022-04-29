@@ -1,0 +1,84 @@
+/*--------------------------------------------------------------
+# News banner Section
+--------------------------------------------------------------*/
+#News {
+    width: 100%;
+    height: 60vh;
+  margin-top: 130px;
+  
+      /* Flexbox stuff */
+      display: flex;
+     
+     align-items: center;
+      
+      /* Text styles */
+    
+      
+      
+      /* Background styles */
+      
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      
+  }
+  #News h1 {
+    margin: 0 0 10px 0;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #fff; 
+    font-family: 'Mohave', sans-serif;
+  }
+ 
+  @media (max-width: 768px) {
+ 
+    #News h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+/*--------------------------------------------------------------
+# News main Section
+--------------------------------------------------------------*/
+#news-main .n-img{
+    border-top: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(180, 178, 178);
+    border-bottom: 1px solid rgb(180, 178, 178);
+    border-left: 1px solid rgb(180, 178, 178);
+}
+#news-main .n-img p{
+    font-size: 15px;
+}
+#news-main .recent-news input{
+   width: 100%;
+}
+#news-main .recent-news button{
+    border: 0px;
+    position: absolute;
+    right: 18px;
+    background: none;
+}
+#news-main .recent-news ul a{
+  color: black;
+}
+#news-main .recent-news ul p{
+  color: rgb(91, 86, 86);
+  font-size: 14px;
+}
+#news-main .btn-group button{
+ border-radius: 3px;
+  border: 1px solid rgb(159, 158, 158);
+}
+#news-main .btn-group button:hover{
+  border-radius: 3px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: black;
+   color: #fff;
+ }
+ #news-main .btn-group button:focus{
+  border-radius: 3px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: black;
+   color: #fff;
+ }

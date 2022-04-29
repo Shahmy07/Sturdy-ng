@@ -4,7 +4,7 @@
 #about {
     width: 100%;
     height: 60vh;
-  margin-top: 90px;
+  margin-top: 130px;
   
       /* Flexbox stuff */
       display: flex;
@@ -84,4 +84,53 @@
   font-size: 32px; 
   color: #B0B0B0;
   
+}
+
+/*--------------------------------------------------------------
+# How to apply visa Section
+--------------------------------------------------------------*/
+#professionals{
+  background-color: #F5F7F9;
+}
+#professionals .prf .p-det{
+  transition: 0.3s;
+}
+#professionals .prf:hover .p-det{
+  filter: brightness(0.6);
+}
+#professionals .prf .p-inner{
+  position: absolute; 
+  bottom: 65px;
+  opacity: 0;
+  transition: 0.3s;
+  width: 90%;
+}
+#professionals .prf:hover .p-inner{
+ opacity: 1;
+}
+#professionals .p-inner ul{ 
+  padding-left: 0px;
+   justify-content: center;
+  list-style: none; 
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+#professionals .p-inner ul li{
+  margin-right: 5px;
+}
+#professionals .p-inner ul a{
+  color: rgb(255, 255, 255);
+}
+
+/*--------------------------------------------------------------
+# Get free online visa Section
+--------------------------------------------------------------*/
+#visa .v-bg{
+  width: 100%;
+   height: 350px;
+  display: flex;
+  align-items: center;
+   background-size:cover;
+   background-position: center center;
+   background-repeat: no-repeat;
 }

@@ -63,3 +63,5 @@
             </div>
           </div>
         </footer><!-- End Footer -->
+
+ <mat-icon class="mx-auto" style="color: #000000; position: absolute; margin-top: -10px; transform: rotate(90deg); ">play_arrow</mat-icon>
