@@ -12,6 +12,9 @@ import { ContactComponent } from './contact/contact.component';
 import {MatButtonModule} from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { EligibilityComponent } from './eligibility/eligibility.component';
 
 
 
@@ -20,7 +23,8 @@ const routes: Routes = [
   {path:'about', component:AboutComponent},
   {path:'service', component:ServiceComponent},
   {path:'news', component:NewsComponent},
-  {path:'contact', component:ContactComponent}
+  {path:'contact', component:ContactComponent},
+  {path:'eligibility', component:EligibilityComponent}
 ];
 
 @NgModule({
@@ -30,7 +34,10 @@ const routes: Routes = [
     AboutComponent,
     ServiceComponent,
     NewsComponent,
-    ContactComponent
+    ContactComponent,
+    HeaderComponent,
+    FooterComponent,
+    EligibilityComponent
   ],
   imports: [
     BrowserModule,
