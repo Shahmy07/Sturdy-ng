@@ -15,6 +15,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { EligibilityComponent } from './eligibility/eligibility.component';
+import { InvoiceComponent } from './invoice/invoice.component';
 
 
 
@@ -24,7 +25,8 @@ const routes: Routes = [
   {path:'service', component:ServiceComponent},
   {path:'news', component:NewsComponent},
   {path:'contact', component:ContactComponent},
-  {path:'eligibility', component:EligibilityComponent}
+  {path:'eligibility', component:EligibilityComponent},
+  {path:'invoice', component:InvoiceComponent}
 ];
 
 @NgModule({
@@ -37,7 +39,8 @@ const routes: Routes = [
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    EligibilityComponent
+    EligibilityComponent,
+    InvoiceComponent
   ],
   imports: [
     BrowserModule,

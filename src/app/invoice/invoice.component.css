@@ -1,0 +1,17 @@
+#invoice{
+    margin-top: 140px;
+}
+#invoice .i-inner{
+    padding-left: 120px;
+    padding-right: 120px;
+ }
+#invoice .i-box{
+   color: #201f1f;
+   border: 1px solid #CFCFCF;
+}
+@media (max-width:768px) {
+    #invoice .i-inner{
+        padding-left: 20px;
+        padding-right: 20px;
+     } 
+}
